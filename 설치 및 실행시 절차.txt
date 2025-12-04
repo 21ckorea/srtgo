@@ -1,0 +1,25 @@
+
+#1. 설치한 python 버전 확인
+C:\Users\DBInc\Downloads\srtgo-main>python --version
+Python 3.14.0
+
+#2. 기차 예매 프로그램에서 필요한 라이브러리 설치
+C:\Users\DBInc\Downloads\srtgo-main>pip install -r requirements.txt
+Collecting requests (from -r requirements.txt (line 4))
+~~~
+~~~
+[notice] A new release of pip is available: 25.2 -> 25.3
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+#3. 기차 예배 시작
+C:\Users\DBInc\Downloads\srtgo-main>python -m srtgo
+[?] 메뉴 선택 (↕:이동, Enter: 선택):
+ > 예매 시작
+   예매 확인/결제/취소
+   로그인 설정
+   텔레그램 설정
+   카드 설정
+   역 설정
+   역 직접 수정
+   예매 옵션 설정
+   나가기

@@ -1,0 +1,19 @@
+# SRTGO 프로젝트 필수 라이브러리 목록
+
+# HTTP 요청 라이브러리 (curl_cffi가 없을 경우 requests 사용)
+requests
+curl-cffi
+
+# 암호화/복호화에 사용되는 Crypto 모듈 (pycryptodome)
+pycryptodome
+
+# 터미널 색상 및 사용자 인터페이스
+termcolor
+click
+inquirer
+
+# 자격 증명(ID/PW) 저장을 위한 키링 모듈
+keyring
+
+# 텔레그램 알림 기능 (python-telegram-bot 라이브러리)
+python-telegram-bot
